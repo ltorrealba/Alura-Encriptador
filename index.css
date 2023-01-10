@@ -1,0 +1,355 @@
+body {
+  background: #869bb4;
+}
+section {
+  position: absolute;
+  width: 28%;
+  height: 80%;
+  left: 70%;
+  top: 4%;
+  background: #ffffff;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  position: absolute;
+  width: 60%;
+  height: 80%; /* tamaño pantallaa 92*/
+  left: 5%;
+  top: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.voidContainer {
+  text-align: center;
+}
+.warning {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 75%;
+}
+.buttonScript {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 75%;
+}
+.inputMessage {
+  height: 70%;
+  width: 75%;
+  z-index: 1;
+}
+.btnEncriptar {
+  padding: 24px;
+  gap: 8px;
+  width: 328px;
+  height: 67px;
+  background: #0a3871;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+.btnEncriptar:hover {
+  background-color: #d8dfe8;
+  color: #0a3871;
+}
+.btnDesencriptar, .btnCopiar {
+  box-sizing: border-box;
+  padding: 24px;
+  gap: 8px;
+  width: 328px;
+  height: 67px;
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #0a3871;
+}
+.btnDesencriptar:hover,.btnCopiar:hover {
+  background-color: #0a3871;
+  color: #ffffff;
+}
+.warningLabel {
+  width: 100%;
+  height: 18px;
+  padding: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #495057;
+  opacity: 0.8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.logoAlura {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  left: 40px;
+  top: 40px;
+}
+.waitingMessage {
+  width: 75%;
+  height: 15%;
+}
+.messageVoid {
+  width: 336px;
+  height: 58px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #343a40;
+  margin: 10px;
+}
+.adviceVoid {
+  width: 336px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #495057;
+}
+.inputValue {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  resize: none;
+  color: #0a3871;
+}
+.inputValue::placeholder {
+  color: #0a3871;
+}
+
+.btnCopiar{
+  width:100%;
+}
+@media (max-width: 768px) {
+  /* Estilos para pantallas de 768px o menores */
+  body {
+    background: #e5e5e5;
+  }
+  section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    background: #ffffff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .voidContainer {
+    text-align: center;
+  }
+  .warning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    width: 100%;
+  }
+  .buttonScript {
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 24px;
+    width: 100%;
+  }
+  .inputMessage {
+    padding: 15px;
+    height: 70%;
+    width: 100%;
+    z-index: 1;
+  }
+  .btnEncriptar {
+    padding: 24px;
+    gap: 8px;
+    width: 100%;
+    height: 67px;
+    background: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .btnEncriptar:hover {
+    background-color: #d8dfe8;
+    color: #0a3871;
+  }
+  .btnDesencriptar {
+    box-sizing: border-box;
+    padding: 24px;
+    gap: 8px;
+    width: 100%;
+    height: 67px;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0a3871;
+  }
+  .btnDesencriptar:hover {
+    background-color: #0a3871;
+    color: #ffffff;
+  }
+  .logoAlura {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 40px;
+    position: relative;
+    width: 120px;
+    height: 48px;
+    left: 0;
+    top: 0;
+  }
+  .waitingMessage {
+    width: 100%;
+    height: 15%;
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  section {
+    position: relative;
+    margin: 20px 0px;
+    width: 100%;
+    height: 92%;
+    background: #ffffff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .voidContainer {
+    text-align: center;
+  }
+  .warning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    width: 100%;
+  }
+  .buttonScript {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 24px;
+    width: 100%;
+  }
+  .inputMessage {
+    height: 70%;
+    width: 100%;
+    z-index: 1;
+  }
+  .btnEncriptar {
+    padding: 24px;
+    gap: 8px;
+    width: 100%;
+    height: 67px;
+    background: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+footer {
+  padding: 1em;
+
+  text-align: center;
+  color:#0a3871 ;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 100%;
+}
