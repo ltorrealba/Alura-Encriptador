@@ -38,7 +38,7 @@ function desencriptar(palabraEncriptada) {
     }
   });
 
-  // Devolver la palabra desencriptada
+  
   return resultado;
 }
 
