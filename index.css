@@ -165,7 +165,7 @@ main {
   width:100%;
 }
 @media (max-width: 768px) {
-  /* Estilos para pantallas de 768px o menores */
+   
   body {
     background: #e5e5e5;
   }
