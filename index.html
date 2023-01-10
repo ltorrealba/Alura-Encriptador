@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <title>Encriptador Alura</title>
+  </head>
+  <body>
+    <img src="assets/logo.png" class="logoAlura" />
+    <main>
+      <div class="inputMessage">
+        <textarea
+          class="inputValue"
+          placeholder="Ingrese el texto aqui"
+          id="introMessage"
+        ></textarea>
+      </div>
+      <div class="warning">
+        <img src="assets/warning.png" class="warningLogo" />
+        <p class="warningLabel">
+          Solo letras minúsculas y sin acento
+        </p>
+      </div>
+      <div class="buttonScript">
+        <button class="btnEncriptar">Encriptar</button>
+        <button class="btnDesencriptar">Desencriptar</button>
+      </div>
+    </main>
+    <section>
+      <div class="inputMessage" id="outroContainer" style="display: none">
+        <textarea
+          class="inputValue"
+          placeholder="Ingrese el texto aqui"
+          id="outroMessage"
+          disabled
+        ></textarea>
+        <div class="buttonScript">
+          <button class="btnCopiar">Copiar</button>
+        </div>
+      </div>
+      <div class="voidContainer">
+        <img src="assets/waiting.png" class="waitingMessage" />
+        <p class="messageVoid">Ningún mensaje fue encontrado</p>
+        <p class="adviceVoid">
+          Ingresa el texto que desees encriptar o desencriptar
+        </p>
+      </div>
+    </section>
+    <div>
+      <footer>
+        <p class="footer"> Copyright © 2023 Por Leonardo Torrealba 
+        <a href="https://edudatos.com/"> Github</a>
+        <img src="assets/github.png"  alt="github" class="github">
+      </footer>
+    </div>
+      </body>
+  
+  <script src="index.js"></script>
+</html>
