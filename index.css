@@ -3,11 +3,11 @@ body {
 }
 section {
   position: absolute;
-  width: 28%;
-  height: 80%;
+  width: 25%;
+  height: 85%;
   left: 70%;
-  top: 4%;
-  background: #ffffff;
+  top: 6%;
+  background: #42adbb;
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   border-radius: 32px;
   display: flex;
@@ -70,7 +70,7 @@ main {
   background-color: #d8dfe8;
   color: #0a3871;
 }
-.btnDesencriptar, .btnCopiar {
+.btnDesencriptar,.btnCopiar{
   box-sizing: border-box;
   padding: 24px;
   gap: 8px;
@@ -158,14 +158,14 @@ main {
   color: #0a3871;
 }
 .inputValue::placeholder {
-  color: #0a3871;
+  color: #787e86;
 }
-
 .btnCopiar{
-  width:100%;
+  text-align: center;
+  margin-block-end: auto;
 }
 @media (max-width: 768px) {
-   
+  /* Estilos para pantallas de 768px o menores */
   body {
     background: #e5e5e5;
   }
@@ -278,7 +278,15 @@ main {
     display: none;
   }
 }
-
+footer {
+  padding: 1em;
+  text-align: center;
+  color:#0a3871 ;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 100%;
+}
 @media (max-width: 375px) {
   section {
     position: relative;
@@ -345,11 +353,10 @@ main {
 }
 footer {
   padding: 1em;
-
   text-align: center;
   color:#0a3871 ;
   position: absolute;
   bottom: 0;
   width: 100%;
-  margin-top: 100%;
+  margin-top: 95%;
 }
